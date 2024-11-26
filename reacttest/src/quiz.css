@@ -1,0 +1,74 @@
+.Quiz { 
+    text-align: center;
+    background-color: black;
+  }
+  
+  .name-input input {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px; /* Added width to the general button */
+    margin: 10px 0; /* Added margin for spacing between buttons */
+  }
+  
+  .quiz-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+  }
+  
+  .question-card {
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column; /* This ensures the options stack vertically */
+    align-items: center; /* Centers the options */
+  }
+  
+  .options button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    width: 80%; /* Ensure the buttons take up 80% of the container width */
+    max-width: 300px; /* Limit the maximum width of buttons */
+    text-align: center; /* Center the text inside the button */
+  }
+  
+  .correct {
+    background-color: green;
+    color: white;
+  }
+  
+  .incorrect {
+    background-color: red;
+    color: white;
+  }
+  
+  .controls button {
+    margin-top: 20px;
+  }
+  
+  .result {
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .result.awesome {
+    background-color: green;
+    color: white;
+  }
+  
+  .result.oops {
+    background-color: red;
+    color: white;
+  }
+  
